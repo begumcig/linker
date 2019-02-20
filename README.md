@@ -1,22 +1,22 @@
 # Linker
 Go to terminal and type:
- make
 
+$ make
 
 This will create linker.exe, then you can test inputs:
 
 
-$ ./linker <name-of-the-input-file>
+$ ./linker "input-file"
 
 The folder lab1samples also has scripts to check all the sample inputs. To test them:
 
 
 Create yourself a directory <your-outdir> where your outputs will be created.
   
-$ cd labsamples
+$ cd lab1samples
 
 
-$ ./runit.sh <your-outdir> <path-to-linker.exe>
+$ ./runit.sh "your-outdir" "path-to-linker.exe"
   
   
-$ ./gradeit.sh . <your-outdir> 
+$ ./gradeit.sh "." "your-outdir" 
